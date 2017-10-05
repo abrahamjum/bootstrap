@@ -56,6 +56,11 @@ body,
   width: 100%;
 }
 
+.logo {
+	width: 250px;
+	height: 150px;
+}
+
 .headline-wrapper {
 	position: relative;
 }
@@ -64,7 +69,7 @@ body,
 	position:absolute;
 	top: 50%;
 	height 100px;
-	margin-top: 33%;
+	margin-top: 20%;
 }
 
 .headline2 {
@@ -77,6 +82,7 @@ body,
 .jumbotron {
   height: 100%;
   background-image: url("img/jumbotron2.png");
+	border-radius: 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -120,7 +126,9 @@ body,
 
 .google-map {
 	width: 100%;
-	height: 400px;
+	height: 500px;
+	padding: 0;
+	margin: 0;
 }
 
 iframe {
