@@ -5,50 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coda|Heebo|Orbitron|Oxygen|Quattrocento+Sans|Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Black+Ops+One|Jockey+One|Racing+Sans+One" rel="stylesheet">
   </head>
   <body>
 
-<nav class="nav justify-content-center bg-dark py-3 fixed-top">
+<nav class="navbar-default d-flex flex-row justify-content-center py-3 fixed-top">
   <a class="nav-item nav-link text-white" href="#">Services</a>
   <a class="nav-item nav-link text-white" href="#">Tints</a>
   <a class="nav-item nav-link text-white" href="#">Showroom</a>
   <a class="nav-item nav-link text-white" href="#">Contact</a>
-  <ul class="nav navbar-nav navbar-right">
-    <li><a class="nav-item text-white navbar-right">Hours: Mon-Sat 9:00am - 5:00pm</a></li>
-  </ul>
 </nav>
 
 <div class="jumbotron container-fluid text-white text-center">
-  <div class="headline-wrapper container d-flex justify-content-center">
-    <!-- <h1 class="display-1 headline1">Tint Company</h1> -->
-    <img src="./img/fulllogotrans.png" class="headline1"/>
-    <!-- <p class="lead headline2">The best tint service in Southern California.</p> -->
+  <div class="headline-wrapper container d-flex flex-column justify-content-center">
+    <h1 class="headline1">Tint Zone</h1>
+    <p class="headline2">Tint it. Shine it. Love it.</p>
   </div>
 </div>
 
 <div class="container text-center text-muted py-5">
   <div class="row">
-    <div class="col-md-4">
-      <div class="card">
-        <img src="./img/building.png" class="card-img-top img-fluid"/>
+    <div class="col-md-4 d-flex align-items-stretch">
+      <div class="card-info">
+        <img src="./img/showcar4.jpg" class="card-img-top img-fluid"/>
         <div class="card-body">
           <h3 class="card-title lead">Commercial & Residential Tint</h3>
           <p>We offer quick and professional tint installation for your home or business.</p>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="./img/car.png" class="card-img-top img-fluid"/>
+    <div class="col-md-4 d-flex align-items-stretch">
+      <div class="card-info">
+        <img src="./img/showcar5.jpg" class="card-img-top img-fluid"/>
         <div class="card-body">
           <h3 class="card-title lead">Automobile Tint</h3>
           <p>We have been specializing in automobile tinting for over 15 years. We have serviced all makes and models ranging from Teslas to Lamborghinis.</p>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="./img/audio.png" class="card-img-top img-fluid"/>
+    <div class="col-md-4 d-flex align-items-stretch">
+      <div class="card-info">
+        <img src="./img/showcar7.jpg" class="card-img-top img-fluid"/>
         <div class="card-body">
           <h3 class="card-title lead">Audio & Alarm Installation</h3>
           <p>We offer a wide variety of entertainment systems and high-security alarm systems to protect your vehicle.</p>
@@ -102,7 +101,6 @@
   </div>
 </div>
 
-
 <h2 class="display-4 text-center py-5 my-4">Showroom</h2>
 <div class="container d-flex flex-row flex-wrap">
   <div class="showroom col-md-4 col-lg-3">
@@ -149,11 +147,24 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.666345638485!2d-117.84301398433885!3d33.691702680705404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcde99b24f399f%3A0x15e653af6601cebb!2s17145+Von+Karman+Ave+%23110%2C+Irvine%2C+CA+92614!5e0!3m2!1sen!2sus!4v1507240577667" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 </div>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script>
+    window.sr = scrollReveal();
+    sr.reveal('.headline1', {
+      duration: 2000,
+      origin: 'top',
+      distance: '100px'
+    });
+  </script>
+
 
   <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/js/iframe/setmore_iframe.js"></script><a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000" href="https://my.setmore.com/bookingpage/f76af607-a248-46dd-88de-93f0f62d6f11"><img border="none" src="https://my.setmore.com/images/bookappt/Setmore-Book-Now.png" alt="Book an appointment with Tint Zone using SetMore" /></a>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvHmFLQidrIccKoi7M4_TkHERg4-av_ZE&callback=initMap"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+
   </body>
 </html>
