@@ -1,5 +1,3 @@
-
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -44,63 +42,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 html,
 body,
 .block1 {
   height: 100%;
   width: 100%;
 }
-
-h1,h2,h3,h4,h5,h6 {
+h1,h3,h4,h5,h6 {
 	font-family: "Poppins";
 }
-
+h2 {
+	font-family: "Orbitron";
+}
 p {
 	font-family: "Roboto";
 }
 
-.polygon-wrapper {
-	width: 100%;
-	height: 400px;
-	margin: 100px ;
-}
-
-.polygon {
-	-webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-	width: 100%;
-	height: 100%;
-	margin-right: -85px;
-	padding: 5px;
-}
-
-.poly-1 {
-	background-color: #a5a5a5;
-}
-
-.poly-2 {
-	background-color: grey;
-}
-.poly-3 {
-	background-color: #525252;
-}
-.poly-4 {
-	background-color: #444444;
-}
-
-.polygon-card {
-	font-family: "Orbitron";
-	font-size: 28px;
-	margin-right: -20px;
-	margin-top: 150px;
-}
-
-
-
-
-
-
+/* NAVBAR */
 .navbar-default {
 	font-family: "Poppins";
 	font-size: 18px;
@@ -112,11 +70,7 @@ p {
 	padding: 0 65px;
 }
 
-.logo {
-	width: 250px;
-	height: 150px;
-}
-
+/* JUMBOTRON */
 .headline-wrapper {
 	position: relative;
 }
@@ -132,12 +86,6 @@ p {
 	opacity: 0.9;
 	letter-spacing: 12px;
 }
-
-/*font-family: "Russo One";
-font-style: italic;*/
-/*
-font-family: "Orbitron";
-font-style:italic;*/
 
 .headline2 {
 	position:;
@@ -160,6 +108,14 @@ font-style:italic;*/
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+	animation: fadeIn 2s ease;
+	-webkit-animation: fadeIn 2s ease;
+}
+
+/* SERVICES */
+.about-us {
+	width: 80%;
+	padding: 0 auto;
 }
 
 .card .no-border {
@@ -170,6 +126,33 @@ font-style:italic;*/
   width: 100%;
 	height: auto;
   margin: 0 auto;
+}
+
+.service-card {
+	padding: 0 auto;
+}
+
+/* TINT OPTIONS*/
+.tint-options {
+	width: 80%;
+}
+
+.tint-card {
+	height: 90px;
+}
+
+.tint-card p {
+	margin: 18px 90px 0 0;
+}
+
+.tint-card li {
+	font-family: "orbitron";
+	margin: 18px 100px 0 100px;
+}
+
+.tint-0 {
+	background-color: black;
+	font-size: 100%;
 }
 
 .tint-1 {
@@ -186,6 +169,11 @@ font-style:italic;*/
 
 .tint-4 {
   background-color: #444444;
+}
+
+/*SHOWROOM*/
+.showroom-wrapper {
+	width: 80%;
 }
 
 .showroom {
@@ -207,4 +195,15 @@ font-style:italic;*/
 iframe {
 	width: 100%;
 	height: 100%;
+}
+
+/* KEYFRAMES */
+@-webkit-keyframes fadeIn {
+	from {opacity: 0.6;}
+	to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+	from {opacity:0.6;}
+	to {opacity: 1;}
 }
